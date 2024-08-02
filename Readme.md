@@ -12,14 +12,15 @@ This userscript is designed to help you extract hardcoded subtitles from YouTube
 ### Requirements
 
 Userscript Manager for browser, visit [greasyfork](https://greasyfork.org/) for installation instructions.
+[made with tampermonkey]
 
 ### Installation
 
 1. Open browser and enable extension
-2. Download and install [YouTube Sub OCR](https://github.com/krmanik/yt-sub-ocr) UserScript
+2. Download and install [YouTube Sub OCR JP](https://github.com/isja13/yt-sub-ocr-JP) UserScript
 
    - Download from GitHub
-     [yt-sub-ocr.user.js](https://krmanik.github.io/yt-sub-ocr/yt-sub-ocr.user.js)
+     [jp user.js](https://github.com/isja13/yt-sub-ocr-JP/blob/main/JP%20User)
 
 ### Demo
 
@@ -33,7 +34,9 @@ Userscript Manager for browser, visit [greasyfork](https://greasyfork.org/) for 
 - The video will pause, and the selected area will be processed for text extraction.
 - The recognized text will be displayed below the video canvas.
 
+- Use browser extension such as 10Ten or Yomitan to read the characters and make flashcards for studying with.
+
 ### Technical Details
 
-1. The OCR is done by [paddlejs-ocr](https://github.com/arkntools/paddlejs-ocr)
+1. The OCR is done by [tesseract](https://github.com/tesseract-ocr/tesseract)
 2. The crop area is done by [cropperjs](https://github.com/fengyuanchen/cropperjs)
