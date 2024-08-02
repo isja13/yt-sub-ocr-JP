@@ -20,7 +20,7 @@ Userscript Manager for browser, visit [greasyfork](https://greasyfork.org/) for 
 2. Download and install [YouTube Sub OCR JP](https://github.com/isja13/yt-sub-ocr-JP) UserScript
 
    - Download from GitHub
-     [jp user.js](https://github.com/isja13/yt-sub-ocr-JP/blob/main/JP%20User)
+     [jp user.js](https://github.com/isja13/yt-sub-ocr-JP/blob/main/jp-user)
 
 ### Demo
 
